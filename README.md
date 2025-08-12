@@ -2,7 +2,7 @@
 NTFS data recovery implementation for __raw disk volumes__ (Tested on a Cruzer Glide 3.0 USB Flash Drive - 16GB)
 
 ## Usage:
-Export GoDevTool and nasm, then run `build.bat` ... <br>
+Export GoDevTool and Nasm, then run `build.bat` ... <br>
 Run `main.exe` after providing the drive letter for your __raw disk volume__ in `config.cfg` in the format presented ... <br>
 Clean dumped output to remove irrelevant files : `clean.bat recovered` ... <br>
 Clean all except source files : `clean.bat all` ... <br>
