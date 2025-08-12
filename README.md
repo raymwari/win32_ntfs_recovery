@@ -3,11 +3,9 @@ NTFS data recovery implementation for __raw disk volumes__ (Tested on a Cruzer G
 
 ## Usage:
 __Build:__ <br>
-
-Export GoDevTool and nasm, then run `build.bat` <br>
+Export GoDevTool and nasm, then run `build.bat` ... <br>
 
 __Program:__ <br>
-
 Run `main.exe` after providing the drive letter for your __raw disk volume__ in `config.cfg` in the format presented ... <br>
 Clean dumped output to remove irrelevant files : `clean.bat recovered` ... <br>
 Clean all except source files : `clean.bat all` ... <br>
