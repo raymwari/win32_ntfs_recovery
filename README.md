@@ -1,6 +1,12 @@
 # win32_ntfs_recovery
 NTFS data recovery implementation for __raw disk volumes__ (Tested on a Cruzer Glide 3.0 USB Flash Drive - 16GB)
 
+## Resources:
+https://ntfs.com/ntfs-partition-boot-sector.htm <br>
+https://cavementech.com/2022/05/mft-forensics.html <br>
+https://www.writeblocked.org/resources/NTFS_CHEAT_SHEETS.pdf <br>
+https://stackoverflow.com/questions/37738926/setfilepointer-from-file-end-always-fails-for-a-volume-handle <br>
+
 ## Usage:
 Export GoDevTool and Nasm, then run `build.bat` ... <br>
 Run `main.exe` after providing the drive letter for your __raw disk volume__ in `config.cfg` in the format presented ... <br>
