@@ -16,10 +16,10 @@ __Custom codes__: <br>
 
 __Common codes__: <br>
 `6` : Drive was not found ... (Invalid handle: Connect drive) <br>
-`1110` : The media in drive may have changed ... (Run again)
+`1110` : The media in drive may have changed ... 
 
 ## Important:
-Regrettably, `mft.asm` was lost to a crash and only the `mft.obj` module was successfully recovered, however if you really wish to view the code you can always dump it using `objdump` <br>
+Regrettably, `mft.asm` was lost to a crash and only the `mft.obj` module was successfully recovered, however if you really wish to view the code you can always dump it using `objdump` ... <br>
 Code attempts recovery on 10,240 file records, meaning it attempts recovery on 10,240 files. This could mean a heavy file dump on some systems ...<br>
 
 ## Next steps:
