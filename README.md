@@ -8,9 +8,9 @@ Export GoDevTool and nasm, then run `build.bat` <br>
 
 __Program:__ <br>
 
-Run `main.exe` after providing the drive letter for your __raw disk volume__ in `config.cfg` in the format presented <br>
-Clean dumped output to remove irrelevant files : `clean.bat recovered` <br>
-Clean all except source files : `clean.bat all` <br>
+Run `main.exe` after providing the drive letter for your __raw disk volume__ in `config.cfg` in the format presented ... <br>
+Clean dumped output to remove irrelevant files : `clean.bat recovered` ... <br>
+Clean all except source files : `clean.bat all` ... <br>
 
 ## Error codes:
 https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499- <br>
