@@ -50,6 +50,7 @@ section .text
               dec ecx
               test ecx, ecx
               jnz ex
+
         sub edi, 0x18 ; original file name
         mov ebx, [ebp + 28]
         push ebx
@@ -71,3 +72,4 @@ section .text
       pop ebp
 
       ret 4
+
