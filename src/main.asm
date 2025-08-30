@@ -105,6 +105,7 @@ section .text
     cmp byte al, 'S'
     jne nxt    
     mov byte [vd], 'T'
+
     nxt:
       inc esi
       dec ecx
@@ -117,6 +118,7 @@ section .text
   push INV_FS
   call SetLastError
   jmp onerr
+
   valid:
     mov esi, boots_bf
     xor eax, eax
@@ -136,4 +138,5 @@ section .text
     call mft
   
   push 0
+
   call ExitProcess
