@@ -1,5 +1,5 @@
 section .bss
-  rdata resb 512 ; max for non resident
+  rdata resb 512 ; max for resident
   len resb 2
 
 section .text
@@ -74,4 +74,5 @@ section .text
       pop ebp      
 
       ret 8
+
 
