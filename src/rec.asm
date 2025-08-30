@@ -38,6 +38,7 @@ section .text
       cmp ebx, 0
       jle nxtf  
       mov [len], ebx
+
       cp:
         mov byte ah, [edi]    
         mov byte [edx], ah
@@ -74,4 +75,5 @@ section .text
       pop esi
       pop edi
       pop ebp      
+
       ret 8
