@@ -38,6 +38,7 @@ section .text
           mov edi, esi
           add edi, 0x5A ; short file name (MS-DOS-readable)
           mov ecx, 0x18
+
           ex:
             mov byte ah, [edi]
             cmp byte ah, '~'
@@ -68,4 +69,5 @@ section .text
       pop eax
       pop esi
       pop ebp
+
       ret 4
