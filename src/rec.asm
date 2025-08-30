@@ -2,9 +2,6 @@ section .bss
   rdata resb 512 ; max for non resident
   len resb 2
 
-section .data
-  ; maxf equ 1500
-
 section .text
   extern CreateFileW, cnt
   extern ExitProcess, rs
@@ -77,3 +74,4 @@ section .text
       pop ebp      
 
       ret 8
+
