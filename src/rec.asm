@@ -26,7 +26,6 @@ section .text
       mov byte ah, [esi + 1]
       cmp ah, 0x00 ; resident
       jne nxtf
-      ; TODO: call non resident handler if not equal
       mov edi, esi
       add edi, 0x18 ; start of data run
       movzx ebx, word [esi + 0x10] ; data run len
@@ -74,5 +73,3 @@ section .text
       pop ebp      
 
       ret 8
-
-
